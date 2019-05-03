@@ -1,6 +1,6 @@
 {% set name = "reikna" %}
-{% set version = "0.7.2" %}
-{% set sha256 = "c52f5ae13e35284feda8f6b67c0d6223c02c0292b1495969cf7a42f547b3fc18" %}
+{% set version = "0.7.3" %}
+{% set sha256 = "69e3da3fe8dd03cbd6abdcfd312acb655f09f81705f0e684194789dfd0a6b0f9" %}
 
 package:
   name: {{ name|lower }}
