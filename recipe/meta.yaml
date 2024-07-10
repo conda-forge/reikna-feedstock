@@ -23,9 +23,9 @@ requirements:
 
   run:
     - python >=2.6,<3|>=3.2
-    - mako >=0.8.0
-    - numpy >=1.6.0
-    - funcsigs >=0.3
+    - mako >=1.0.0
+    - numpy >=2.0.0
+    - funcsigs >=1.0.0
     # Optional
     # - pycuda
     # - pyopencl
