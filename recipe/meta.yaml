@@ -1,6 +1,6 @@
 {% set name = "reikna" %}
-{% set version = "0.8.0" %}
-{% set sha256 = "7e96b53dfa3910069f83b3e085ad7b1ba9391b5ddf744ae3725bf43a7fee6322" %}
+{% set version = "0.9.0" %}
+{% set sha256 = "bb322818290820d8263beaf4bc0ce68a14b5e065afe7281a90ccf7b4a206df30" %}
 
 package:
   name: {{ name|lower }}
@@ -23,9 +23,9 @@ requirements:
 
   run:
     - python >=2.6,<3|>=3.2
-    - mako >=0.8.0
-    - numpy >=1.6.0
-    - funcsigs >=0.3
+    - mako >=1.0.0
+    - numpy >=2.0.0
+    - funcsigs >=1.0.0
     # Optional
     # - pycuda
     # - pyopencl
